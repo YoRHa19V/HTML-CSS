@@ -14,7 +14,12 @@
     clear: both;
   }
    
+header,nav,.main-visual,footer {
+  font-family: Charkduster,"Bradley Hand",Courier,"Segoe Print",sans-serif;
+}
+
   header {
+    position: relative;
     width: 90%;
     padding: 15px 0;
     margin: 0 auto;
@@ -23,6 +28,18 @@
   header .headline{
       font-size: 32px;
   }
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i {
+  display: inline-block;
+  margin: 20px;
+}
+
   .nav-list {
     text-align: center;
     padding: 10px 0;
@@ -117,7 +134,7 @@
         color: #fff;
         font-size: 11px;
       }
-      
+
       .sidebar {
         width: 230px;
         float: left;
